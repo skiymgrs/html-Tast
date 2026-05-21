@@ -1,0 +1,45 @@
+:root {
+    --black: #1d1d1d;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: yellow;
+    position: relative;
+    
+    .box {
+        width: 300px;
+        height: 300px;
+        border: 1px solid red;
+        padding: 10px;
+    }
+
+    .box2 {
+        width: 200px;
+        height: 200px;
+        background-color: var(--black);
+    }
+
+    .box3 {
+        width: 200px;
+        height: 200px;
+        background-color: var(--black);
+    }
+
+    .box4 {
+        width: 200px;
+        height: 200px;
+        background-color: var(--black);
+    }
+
+    .box5 {
+        width: 200px;
+        height: 200px;
+        background-color: var(--black);
+    }
+}
